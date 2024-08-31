@@ -11,9 +11,12 @@
 
 | ディレクトリ | 内容 |
 | ---- | ---- |
+| getting_started.md | 書籍内の .cursor-tutor/getting_started.md ファイル |
 | python | 2.1 基本操作ハンズオン Python 編 |
 | javascript | 2.2 基本操作ハンズオン JavaScript 編<br>（※zipファイルを解凍後ご利用ください） |
 | samples | 生成されたサンプルコード |
+
+Cursor 同梱のフォルダ構成にはあった「projects」を省いた構成になっています。フォルダ移動のコマンドを実行する際は、その点を読み替えたパス指定を行なってください。
 
 ## 📕 ハンズオン例題についての注意
 
