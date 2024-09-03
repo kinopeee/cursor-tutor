@@ -4,7 +4,7 @@
 - 2024年6月以前に Cursor をインストールされた方は、書籍の手順通りで操作を進めていただくことが可能なはずです（いつ時点でハンズオン例題のコードが同梱されなくなったかが不明ですので、ローカルの「.cursor-tutor」フォルダの有無をご確認ください）。
 - 「.cursor-tutor」フォルダがインストールされていない場合は、当リポジトリをローカルにクローン、もしくは「Download ZIP」ボタンから zip 形式でダウンロード後、解凍して、ご利用ください。
 ![Download ZIP](images/zip_download_button.png)
-- Cursor 同梱の「.cursor-tutor」フォルダは先頭にドットのある隠しフォルダ属性となっていますが、そのままでは Github での表示やダウンロード後の扱いに問題があるため、ドットを除いた「cursor-tutor」というフォルダ名にしてあります。その点を読み替えて、操作をお進めください。
+- Cursor 同梱の「.cursor-tutor」フォルダは先頭にドットのある隠しフォルダ属性となっていますが、そのままでは Github での表示やダウンロード後の扱いに問題があるため、ドットを除いた「cursor-tutor」というフォルダ名にしてあります。
 - 本書内では、英語の手順説明部を訳しながら操作を進めていますが、こちらのサンプルでは最初から日本語にしてあります。
 
 ## 📕 このリポジトリの構成
@@ -16,7 +16,32 @@
 | javascript | 2.2 基本操作ハンズオン JavaScript 編<br>（※zipファイルを解凍後ご利用ください） |
 | samples | 生成されたサンプルコード |
 
-Cursor 同梱のフォルダ構成にはあった「projects」を省いた構成になっています。フォルダ移動のコマンドを実行する際は、その点を読み替えたパス指定を行なってください。
+【注意点】
+1. フォルダ名が「.cursor-tutor」から「cursor-tutor」に変更されています。
+2. 「javascript.zip」ファイルを解凍して「javascript」フォルダにしてください。
+3. Cursor 同梱のフォルダ構成にはあった「projects」を省いたフォルダ構成になっています。
+
+上記の変更点を反映したファイル指定やフォルダ移動のコマンドは下記のようになります。
+
+【読み替え後のパス】
+P.18
+Windows
+`cursor-tutor\python\main.py`
+macOS
+`cursor-tutor/python/main.py`
+
+P.32
+Windows
+`cursor-tutor\javascript\src\index.js`
+macOS
+`cursor-tutor/javascript/src/index.js`
+
+P.37
+Windows環境
+`cd javascript\`
+macOS環境
+`cd javascript/`
+
 
 ## 📕 ハンズオン例題についての注意
 
