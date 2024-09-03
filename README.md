@@ -25,23 +25,26 @@
 
 【読み替え後のパス】
 P.18
+```
 Windows
 `cursor-tutor\python\main.py`
 macOS
 `cursor-tutor/python/main.py`
-
+```
 P.32
+```
 Windows
 `cursor-tutor\javascript\src\index.js`
 macOS
 `cursor-tutor/javascript/src/index.js`
-
+```
 P.37
+```
 Windows環境
 `cd javascript\`
 macOS環境
 `cd javascript/`
-
+```
 
 ## 📕 ハンズオン例題についての注意
 
